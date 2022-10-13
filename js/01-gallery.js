@@ -37,8 +37,9 @@ function onGalleryContainerClick(evt) {
     console.log(evt.target);
 
     modalWindow = basicLightbox.create(`
-    <img src="${evt.target.dataset.source}" width="800" heigth="600">
+    <img src="${evt.target.dataset.source}" width="800" height="600">
 `)
 
 modalWindow.show();
 }
+
